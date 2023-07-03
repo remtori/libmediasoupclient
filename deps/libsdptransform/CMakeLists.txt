@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.0)
 
+cmake_policy(SET CMP0063 NEW) # Honor visibility properties for all target
+
 project(sdptransform VERSION 1.2.10)
 
 # For CMake >= 3.1.
